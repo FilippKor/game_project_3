@@ -1,0 +1,295 @@
+@charset "UTF-8";
+.container {
+  max-width: 1090px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#header {
+  padding-top: 21px;
+}
+
+.header__components {
+  display: flex;
+}
+
+.header__component:nth-child(2) {
+  margin-left: 81px;
+}
+.header__component:nth-child(3) {
+  margin-left: 361px;
+}
+
+.header__logo {
+  width: 93px;
+  height: 38.15px;
+  fill: #fff;
+}
+
+.header__list {
+  gap: 50px;
+  list-style: none;
+  display: flex;
+  margin-top: 0;
+}
+
+.header__item {
+  width: 97px;
+}
+
+.header__text {
+  font-size: 12px;
+  font-family: "Montserrat Alternates", sans-serif;
+}
+
+.header__text:hover {
+  color: #8ACECF;
+  transition: 500ms;
+}
+
+.switch-container {
+  width: 40px;
+  height: 20px;
+  position: relative;
+  margin-top: 10px;
+}
+
+.switch {
+  width: 40px;
+  height: 20px;
+  background-color: #ccc;
+  border-radius: 10px;
+  position: relative;
+  cursor: pointer;
+}
+
+.ball {
+  width: 20px;
+  height: 20px;
+  background-color: #ffcc00; /* Яскравий колір */
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: left 0.3s ease, background-color 0.3s ease; /* Анімація для зміни кольору */
+  border: 2px solid #aa8926; /* Темний бордер */
+}
+
+.switch.night .ball {
+  left: 100%;
+  transform: translateX(-100%); /* зміщення на 100% вправо */
+  background-color: #7b6f6f; /* Темний колір місяця */
+  border-color: #423b3b; /* Ще темніший бордер */
+}
+
+.header__component-switch {
+  display: flex;
+  gap: 51px;
+}
+
+.header__description {
+  font-size: 12px;
+  font-family: "Montserrat Alternates", sans-serif;
+  width: 140px;
+}
+
+.display-none {
+  display: none;
+}
+
+.header-backdrop__sort-button {
+  border: none;
+  background-color: #fff;
+  font-size: 12px;
+  font-family: "Montserrat Alternates", sans-serif;
+}
+
+#sort-select {
+  background-color: #fff;
+  border: none;
+  margin-top: 10px;
+  font-family: "Montserrat Alternates", sans-serif;
+  transition: 500ms;
+}
+
+#sort-select:hover {
+  transition: 500ms;
+  color: #8ACECF;
+}
+
+.sort-option {
+  display: block;
+  background-color: #fff;
+  border-radius: 0 20px 20px 0;
+  border: 1px #000 solid;
+  gap: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-family: "Montserrat Alternates", sans-serif;
+}
+
+.user-name {
+  width: 100px;
+}
+
+.sort-style {
+  width: 160px;
+  border-radius: 20px;
+}
+
+.games__leap {
+  font-family: "Montserrat Alternates", solid;
+  font-size: 24px;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 36px;
+}
+
+.vector__leap {
+  width: 536px;
+  height: 1px;
+  background-color: #000;
+  align-items: center;
+  margin: auto;
+}
+
+.title__leap {
+  text-align: center;
+  font-family: "Montserrat Alternates", solid;
+  font-weight: 400;
+  font-size: 16px;
+  margin-top: 36px;
+}
+
+.leap__list {
+  display: flex;
+  justify-content: center;
+  margin-right: 150px;
+  margin-top: 36px;
+  margin-left: 257px;
+}
+
+.input__leap {
+  outline: 0;
+  border: 0;
+  width: 215px;
+  height: 35px;
+  padding: 10px, 20px, 10px, 20px;
+  background-color: #D7D7D7;
+  padding-left: 14px;
+  box-shadow: 3px 3px 0px 0px rgba(0, 0, 0, 0.2509803922);
+  border-radius: 20px 0px 0px 20px;
+  font-family: "Montserrat Alternates", solid;
+  font-size: 12px;
+  font-weight: 400;
+  transition: all 500ms ease;
+}
+
+.input-but__leap {
+  font-family: "Montserrat Alternates", solid;
+  font-weight: 400;
+  font-size: 16px;
+  width: 35px;
+  height: 35px;
+  border-radius: 0px 20px 20px 0px;
+  padding: 10px;
+  gap: 10px;
+  background-color: #000000;
+  box-shadow: 3px 3px 0px 0px rgba(0, 0, 0, 0.2509803922);
+  border: none;
+}
+
+.yesNo__leap {
+  font-family: "Montserrat Alternates", solid;
+  font-weight: 400;
+  font-size: 16px;
+  margin-left: 129px;
+  width: 400px;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  opacity: 0;
+  transition: opacity 500ms ease;
+}
+
+.leap-year__svg {
+  width: 15px;
+  height: 15px;
+}
+
+.container {
+  max-width: 1090px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.guess-the-number__title {
+  margin-top: 36px;
+  font-size: 16px;
+  text-align: center;
+  margin-bottom: 36px;
+  font-family: "Montserrat Alternates", sans-serif;
+}
+
+.guess-the-number__input {
+  width: 115px;
+  height: 35px;
+  position: relative;
+  border: none;
+  border-radius: 60px 0 0 60px;
+  background-color: #d7d7d7;
+  margin-left: 250px;
+  padding-left: 10px;
+  padding-bottom: 3px;
+  font-size: 12px;
+  font-family: "Montserrat Alternates", sans-serif;
+  box-shadow: 3px 3px 0px 0px rgba(0, 0, 0, 0.2509803922);
+}
+.guess-the-number__input:hover {
+  border: none;
+}
+
+.guess-the-number__button {
+  position: absolute;
+  width: 35px;
+  height: 35px;
+  border: none;
+  background-color: black;
+  border-radius: 0 60px 60px 0;
+  font-family: "Montserrat Alternates", sans-serif;
+  box-shadow: 3px 3px 0px 0px rgba(0, 0, 0, 0.2509803922);
+}
+
+.guess-the-number__text {
+  font-family: "Montserrat Alternates", sans-serif;
+  margin-bottom: -14px;
+  opacity: 0;
+  color: #000000;
+  transition: opacity 500ms ease, color 500ms ease;
+}
+
+.guess-the-number__box {
+  display: flex;
+  gap: 202px;
+}
+
+.guess-the-number__svg {
+  fill: #fff;
+  width: 15px;
+  height: 15px;
+  margin-top: 2px;
+}
+
+.guess-the-number__button .guess-the-number__svg {
+  position: relative;
+}
+
+.guess-the-number__line {
+  background-color: #000000;
+  height: 1px;
+  width: 536px;
+  margin: auto;
+}
