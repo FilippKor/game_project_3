@@ -97,10 +97,58 @@
             </div>
         </section>
         <!-- guess the year - end  -->
-
+        <!-- Rock paper sizors - start-->
+        <section id="prs__section">
+            <div class="continer prs-container">
+                <!-- class="prs-night" -->
+                <div class="prs-night">
+                    <div class="vector__prs"></div>
+                    <h1 class="prs__title">Камінь - ножиці - папір</h1>
+                    <div class="prs__select">
+                        <ul class="prs-button__list">
+                        <li class="prs-button__item">
+                            <button class="prs__button" type="button" id="rock-button">
+                                камінь
+                            </button>
+                        </li>
+                        <li class="prs-button__item">
+                            <button class="prs__button" type="button" id="scissors-button">
+                                ножиці
+                            </button>
+                        </li>
+                        <li class="prs-button__item">
+                            <button class="prs__button" type="button" id="paper-button">
+                                папір
+                            </button>
+                        </li>
+                        <li>
+                            <ul class="score__list">
+                                <li class="score__item" id="score">
+                                    Рахунок:
+                                </li>
+                                <li class="score__item" id="computer-score">
+                                    <span id="computer-label">Комп'ютер -</span><span id="comp-score-text"></span>
+                                </li>
+                                <li class="score__item" id="user-score">
+                                    <span id="user-label">Ви -</span><span id="user-score-text"></span>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                    </div>  
+                <p class="prs__winOrLose" id="winOrLose"></p>
+                <button type="button" class="prs-computer__button" id="computer-variant">
+                    computers option
+                </button>
+                </div>
+            </div>
+            </section>
+            <!-- rock paper - end -->
+         
 
     <script src="/js/script.js"></script>
     <script src="/js/born_year.js"></script>
     <script src="/js/guess_the.js"></script>
+    <script src="/js/rock_paper.js"></script>
 </body>
 </html>
