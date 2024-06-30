@@ -1,7 +1,7 @@
 let rockpaperButton = document.querySelector('.prs-computer__button')
-let rockButton = document.querySelector('.rock-button')
-let paperButton = document.querySelector('.paper-button')
-let scissorsButton = document.querySelector('.scissors-button')
+let rockButton = document.querySelector('#rock-button')
+let paperButton = document.querySelector('#paper-button')
+let scissorsButton = document.querySelector('#scissors-button')
 let thetext = document.querySelector('.prs__winOrLose')
 let randomChoise = Math.floor(Math.random()*3+1)
 // 1 is rock 2 is paper 3 is sicssor 
@@ -41,5 +41,5 @@ scissorsButton.addEventListener('click',function(){
     }
 })
 rockpaperButton.addEventListener('click',function(){
-
+         randomChoise
 })
