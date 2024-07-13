@@ -79,12 +79,12 @@ function updateObstacles() {
             let lastObstacleX = canvas.width; 
             for (let i = 0; i < numObstacles; i++) {
                 let minSpacing = 5;
-                let maxSpacing = 20;
+                let maxSpacing = 25;
                 let spacing = minSpacing + Math.random() * (maxSpacing - minSpacing);
                 obstacles.push({
                     x: lastObstacleX + spacing, 
                     width: 20 + Math.random() * 10,
-                    height: 20 + Math.random() * 70
+                    height: 20 + Math.random() * 60
                 });
                 lastObstacleX = obstacles[obstacles.length - 1].x + obstacles[obstacles.length - 1].width;
             }
