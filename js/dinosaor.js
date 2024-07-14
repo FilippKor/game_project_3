@@ -84,7 +84,7 @@ function updateObstacles() {
                 obstacles.push({
                     x: lastObstacleX + spacing, 
                     width: 20 + Math.random() * 10,
-                    height: 20 + Math.random() * 60
+                    height: 20 + Math.random() * 55
                 });
                 lastObstacleX = obstacles[obstacles.length - 1].x + obstacles[obstacles.length - 1].width;
             }

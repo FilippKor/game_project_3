@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>game project</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 </head>
 
 <body>
@@ -243,6 +244,61 @@
     </div>
 </section>
 <!-- dinosaeriofs - end -->
+<!-- slider -->
+<section id="our-team">
+    <div class="container">
+      <div class="our-team-night">
+        <div class="our-team__line"></div>
+        <h3 class="our-team__title">Наша команда</h3>
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="our-team__box">
+                  <img class="worker-img" src="./images/our-team/pasha.jpg" alt="">
+                  <h5 class="worker-name">Sergey</h5>
+                  <p class="worker-work">ScramMaster</p>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="our-team__box">
+                  <img class="worker-img" src="./images/our-team/marko.jpg" alt="">
+                  <h5 class="worker-name">Filipp</h5>
+                  <p class="worker-work">TeamLead</p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+          </div>
+      </div>
+    </div>
+</section>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<!-- slider ended -->
+<!-- siince - start  -->
+<section id="info__section">
+    <div class="container">
+        <div class="scientist-night">
+            <div class="vector__scientist"></div>
+        <h2 class="info__title">
+            Обери вченого/их
+        </h2>
+        <ul class="info__scientists"></ul>
+        <ul class="info__prompts"></ul>
+    </div>
+        </div>
+</section>
+
+
+
+
+
+
+
+
+<script type="module" src="./index.js"></script>
+<!-- science - end -->
 
 
     <script src="/js/script.js"></script>
@@ -253,6 +309,8 @@
     <script src="/js/three_number.js"></script>
     <script src="/js/time_calc.js"></script>
     <script src="/js/dinosaor.js"></script>
+    <script src="/js/slider.js"></script>
+    <script src="/js/science.js"></script>
 </body>
 
 </html>
