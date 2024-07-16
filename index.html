@@ -274,7 +274,7 @@
       </div>
     </div>
 </section>
-<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
 <!-- slider ended -->
 <!-- siince - start  -->
 <section id="info__section">
@@ -289,18 +289,51 @@
     </div>
         </div>
 </section>
+<!-- footer -start  -->
+<section class="footer">
+    <div class="container">
+        <ul class="footer__box">
+            <li class="footer__box-item">
+                <svg class="footer__logo">
+                    <use href="./images/footer/footer-symbol-defs.svg#logo"></use>
+                </svg>
+            </li>
+            <li class="footer__box-item">
+                <p class="footer__contacts">Тел: +38 (123) 456 78 90<br>
+                    E-Mail: codingmagic@gmail.com<br>
+                    Facebook: CodingMagic<br>
+                    Twitter: CodingMagic<br>
+                    Instagram: CodingMagic</p>
+            </li>
+            <li class="footer__box-item">
+                <div class="footer__subscribe-box">
+                    <input type="email" placeholder="Ваша ел. адреса" class="footer__gmail-input">
+                <button class="footer__subscribe" type="button" data-open-modal>Підписатись</button>
+                </div>
+                <p class="footer__description">*Підписавшись, Ви зможете ортимувати інформаццію про новинки на сайті</p>
+            </li>
+        </ul>
+    </div>
+</section>
+
+<div class="footer-backdrop footer__is-hidden" data-backdrop>
+    <form class="footer-backdrop__background-modal">
+        <button class="footer-backdrop__close" type="button" data-close-modal>
+            <svg class="footer-backdrop__close-svg">
+                <use href="./images/footer/footer-symbol-defs.svg#icon-close"></use>
+            </svg>
+        </button>
+        <div class="footer-backdrop__background">
+            <h4 class="footer-backdrop__title">Дякую за підписку!</h4>
+        </div>
+    </form>
+</div>
+<!-- footer-end -->
 
 
-
-
-
-
-
-
-<script type="module" src="./index.js"></script>
 <!-- science - end -->
 
-
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="/js/script.js"></script>
     <script src="/js/born_year.js"></script>
     <script src="/js/guess_the.js"></script>
@@ -311,6 +344,7 @@
     <script src="/js/dinosaor.js"></script>
     <script src="/js/slider.js"></script>
     <script src="/js/science.js"></script>
+    <script src="/js/footer.js"></script>
 </body>
 
 </html>
